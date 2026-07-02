@@ -19,6 +19,6 @@ const mis_rutas = [
 ];
 
 export const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/app-vue-proyecto1/'),
     routes: mis_rutas
 })
