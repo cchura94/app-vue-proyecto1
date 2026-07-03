@@ -36,6 +36,13 @@
           >
             BLOG
           </RouterLink>
+          <RouterLink 
+            to="/productos-venta" 
+            class="text-sm font-semibold text-gray-600 hover:text-indigo-600 transition-colors py-2 px-1"
+            active-class="text-indigo-600 border-b-2 border-indigo-600"
+          >
+            PRODUCTOS (venta)
+          </RouterLink>
         </div>
 
         <!-- Botón de Acción (Ingresar) -->
@@ -53,6 +60,8 @@
           <RouterLink to="/" class="text-xs font-bold text-gray-600" active-class="text-indigo-600">INICIO</RouterLink>
           <RouterLink to="/producto" class="text-xs font-bold text-gray-600" active-class="text-indigo-600">PRODUCTOS</RouterLink>
           <RouterLink to="/blog" class="text-xs font-bold text-gray-600" active-class="text-indigo-600">BLOG</RouterLink>
+          <RouterLink to="/productos-venta" class="text-xs font-bold text-gray-600" active-class="text-indigo-600">PRODUCTOS (Venta)</RouterLink>
+
           <RouterLink to="/login" class="text-xs font-bold text-indigo-600">LOG IN</RouterLink>
         </div>
 

@@ -4,6 +4,7 @@ import Login from "./../views/Login.vue"
 import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
 import Blog from "../views/Blog.vue";
 import NotFoundComponent from "../views/errors/NotFoundComponent.vue";
+import ProductosVenta from "../views/ProductosVenta.vue";
 
 const mis_rutas = [
     {
@@ -21,6 +22,10 @@ const mis_rutas = [
     {
         path: '/blog',
         component: Blog
+    },
+    {
+        path: '/productos-venta',
+        component: ProductosVenta
     },
     { path: '/:pathMatch(.*)', component: NotFoundComponent }
 ];
